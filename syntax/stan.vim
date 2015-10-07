@@ -71,7 +71,7 @@ syn match stanDistributed /\~/
 " syn keyword stanType data model  array category character complex real function integer list logical matrix numeric vector data.frame 
 " syn keyword stanType var 
 
-syn keyword stanType  int real cov_matrix corr_matrix vector matrix simplex
+syn keyword stanType  int real cov_matrix corr_matrix vector row_vector matrix simplex
 syn keyword stanBlk functions data model parameters transformed generated quantities 
 " syn keyword stanBlk derived
 syn match equalSign /=/
